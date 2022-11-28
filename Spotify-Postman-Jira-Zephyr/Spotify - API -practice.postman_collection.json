@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "74764f6b-33eb-47e6-887c-a2a4c1b676a1",
+		"name": "Spotify - API -practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24586539"
+	},
+	"item": [
+		{
+			"name": "Generate Authorization Code from Spotify",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://accounts.spotify.com/authorize?client_id=49e76d4088584b90bb5f0f480f945ed7&response_type=code&redirect_uri=http%3A%2F%2Ftestaremanualamaxim.com%2Fcallback&scope=ugc-image-upload user-read-playback-state user-modify-playback-state user-read-currently-playing app-remote-control streaming playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-follow-modify user-follow-read user-read-playback-position user-top-read user-read-recently-played user-library-modify user-library-read user-read-email user-read-private",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"authorize"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "49e76d4088584b90bb5f0f480f945ed7"
+						},
+						{
+							"key": "response_type",
+							"value": "code"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "http%3A%2F%2Ftestaremanualamaxim.com%2Fcallback"
+						},
+						{
+							"key": "scope",
+							"value": "ugc-image-upload user-read-playback-state user-modify-playback-state user-read-currently-playing app-remote-control streaming playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-follow-modify user-follow-read user-read-playback-position user-top-read user-read-recently-played user-library-modify user-library-read user-read-email user-read-private"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "redirect_uri",
+							"value": "http://testaremanualamaxim.com/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "49e76d4088584b90bb5f0f480f945ed7",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "67d5a4b7834b4a3e8f10ddc5581ff2ca",
+							"type": "text"
+						},
+						{
+							"key": "code ",
+							"value": "AQBkoHjkiePsiVp2X4CfroTVZcbseMd2Iufsv53L8x61xrfSGWorl6vlcK6yfvLtUkYdLJAk39amS5_YkoVmIiNTqJJ9JwU_eArFihDGSDQIL2bWXA7ZiDMOSNgFMxBSymGwF6TDkn4NAiCFhnYrBzOhh-6wYYGTi8TVZS0uN1OchAZCWuabeLBBBLENLtMlL6aboFOjq1kApLBqeVnhZFFdeyjB-xwMGXnesRi9CBV47y1nwvzP4m-GNzoOlsZ5yt8G1nbDqXLVVCQbxlo1PAxrXZmp-CwBjL0jUS2w2E2e6fKuFiyNubKb4e3rMnIj7Y7G2JdaGT2s83WlMQkmOoGT1xWB6qc2XFuOUtR9sql1TJ4Hl20mRAVhSgtIC_Qnso3Uszt-814Rly7smfQED_LDwL3Hr5100IfEciN04pyBJZMXmanXwcsqJjvRNjv66KIk02mCZteS83H822hmyLnMppnSLMoumMjAqUtMQr3nCujKvyzGLUTYlstLKF69t-hbqfwbCGhWF24wH7C1gib-auX8cvHYdCyxve-JQBTUBGpWBKKOh6FeZZZ4Nm-_WhW8OXFg2v4Fjo1tuC6BItKbvyoxxO9OswYPAXcYzwfSaVVyoOMmY3t132lCD9vJJ95rcyBIi49SFgdl8kTH0dpyjdqpAxgUZ_pRXIQmAiJ4_Olt2AUVruH81WFRvVyai7DshDF1WfwfLkGpnvJuNGk1DEHFw95TBY3vEso",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get  Single Album",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQDABz_uu93Ihjr0WMnWoR0IeSNRkcfg0hERH26tlqn1HzQzRVSWty6te326uEq4-sr1kFpOKVpwXMrPDJRKRrM3CgaGaUysFaobC4ARqcvBbpmalL73jqE8by0n93vfeaO5NcDa3sISP9cK815-ttyx5iQHqKzVjNXtsLDiuPiyHbxA-diom85xgeJlAMTpm5Fu3NLFBcAU30KD4xolkVTGySACi29szksIeKhhoWceelsTbMEsq3qHb9t6yLqo1-C5Dc8feFsWNeWefEwi2uJtJxc7-2yUucEGxtJhXGq65rwm-nBSzIV94OSejOhMmcSqRtJs2wVBEjflBn5g",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/albums/41bTjcSaiEe4G40RVVHbux",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"albums",
+						"41bTjcSaiEe4G40RVVHbux"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

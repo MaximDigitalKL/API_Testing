@@ -1,0 +1,670 @@
+{
+	"info": {
+		"_postman_id": "ac34e9b5-e653-429b-b246-45f9550b5d87",
+		"name": "Book Orders -API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24586539"
+	},
+	"item": [
+		{
+			"name": "Create Tokens",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientName\":\"Postman\",\r\n    \"clientEmail\": \"testaremanuala@example.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/api-clients/",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"api-clients",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get books no filter",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check that the status code returned by the test is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Response contains ID\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response contains name\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response contains type\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"type\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response contains field available\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"available\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"\r",
+							"var data = pm.response.json();\r",
+							"pm.test('Number of books = ' + data.length, function () {\r",
+							"    pm.expect(data.length).to.equal(6);\r",
+							"});\r",
+							"\r",
+							"console.log()  \r",
+							"\r",
+							"console.log(data) \r",
+							"console.log(data[0])\r",
+							"console.log(data[0].name)\r",
+							"\r",
+							"pm.test(\"Check that the first results in the list are correct\",() => {\r",
+							"    pm.expect(data[0].id).to.eql(1)\r",
+							"    pm.expect(data[0].name).to.eql(\"The Russian\")\r",
+							"    pm.expect(data[0].type).to.eql(\"fiction\")\r",
+							"    pm.expect(data[0].available).to.be.true                                               \r",
+							"})\r",
+							"\r",
+							"pm.test(\"Check that the second result in the list is correct\",() => {\r",
+							"    pm.expect(data[1].id).to.eql(2)\r",
+							"    pm.expect(data[1].name).to.eql(\"Just as I Am\")\r",
+							"    pm.expect(data[1].type).to.eql(\"non-fiction\")\r",
+							"    pm.expect(data[1].available).to.be.false                                               \r",
+							"})\r",
+							"\r",
+							"console.log(pm.response)\r",
+							"\r",
+							"pm.test(\"Response time is less than 5s\", () => {\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(5000)\r",
+							"});\r",
+							"\r",
+							"pm.test('Check response to have header ', function () \r",
+							"{\r",
+							"     pm.response.to.have.header(\"Content-Type\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"function check_numer_of_books_by_availability()\r",
+							"{\r",
+							"    var nr_carti_available = 0; \r",
+							"    for (var i = 0; i < data.length; i++) \r",
+							"    {\r",
+							"        if(data[i].available==true)\r",
+							"            {nr_carti_available +=1} \r",
+							"    }\r",
+							"return nr_carti_available \r",
+							"}\r",
+							"\r",
+							"console.log(check_numer_of_books_by_availability())\r",
+							"check_numer_of_books_by_availability() \r",
+							"\r",
+							"\r",
+							"pm.test(\"Check that we have at least two available books\",()=>\r",
+							"{\r",
+							"    pm.expect(check_numer_of_books_by_availability()).to.be.greaterThan(2)\r",
+							"})\r",
+							"\r",
+							"\r",
+							"const response = pm.response.json()\r",
+							"const nonFiction = response.filter((book) => book.available === true); \r",
+							"console.log(\"Cartile care sunt disponibile pe stoc sunt: \")\r",
+							"for (var i=0; i<nonFiction.length;i++) \r",
+							"{\r",
+							"    console.log(nonFiction[i].name)\r",
+							"}\r",
+							"\r",
+							"\r",
+							"console.log(\"Prima carte disponibila pe stoc este \" + nonFiction[0].name)\r",
+							"\r",
+							"book = data[0]\r",
+							"pm.test(\"Carte gasita\", () => {\r",
+							"    pm.expect(book).to.be.an('object');\r",
+							"    pm.expect(book.available).to.be.true;\r",
+							"    pm.expect(book.available).to.eql(true); \r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get books filter by type fiction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check that the status code is correct\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response contains ID\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"});\r",
+							"\r",
+							"var data = pm.response.json();\r",
+							"pm.test('Number of books = ' + data.length, function () { \r",
+							"    pm.expect(data.length).to.equal(4);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 5s\", () => {\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?type=fiction",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "fiction"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get books filter by type non-fiction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check that the status code is correct\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response contains ID\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+							"});\r",
+							"\r",
+							"var data = pm.response.json();\r",
+							"pm.test('Number of books is smaller than 6', function () { \r",
+							"    pm.expect(data.length).to.be.below(6);\r",
+							"});\r",
+							"\r",
+							"var data = pm.response.json();\r",
+							"pm.test('Number of books = ' + data.length, function () { \r",
+							"    pm.expect(data.length).to.equal(2);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 5s\", () => {\r",
+							"  pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?type=non-fiction",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "non-fiction"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get books filter by invalid type",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"Check that the status code of the request is the correct one\",() =>{\r",
+							"    pm.response.to.have.status(400)\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Response returns error\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"error\");\r",
+							"});\r",
+							"\r",
+							"var responseData = pm.response.json()\r",
+							"pm.test(\"Response returns correct error message\", function () \r",
+							"{\r",
+							"    pm.expect(responseData.error).to.eql(\"Invalid value for query parameter 'type'. Must be one of: fiction, non-fiction.\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?type=comedy",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "comedy"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Order",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var responseData = pm.response.json()\r",
+							"pm.test(\"Check that the order was created\", () =>\r",
+							"{\r",
+							"    pm.expect(responseData.created).to.equal(true)\r",
+							"    pm.expect(responseData.created).to.be.true\r",
+							"    pm.expect(responseData.orderId).not.eql(null)\r",
+							"    pm.expect(responseData.orderId).not.be.null\r",
+							"    }\r",
+							")\r",
+							"\r",
+							"pm.test(\"Check that the status code is correct\", () =>\r",
+							"    {\r",
+							"        pm.response.to.have.status(201)\r",
+							"    }\r",
+							")"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookId\": 1,\r\n    \"customerName\": \"Postman\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/orders/",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a simple Order",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var data = pm.response.json();\r",
+							"pm.test('Check that the id is: JASQKNE4QeC_5r4GUinkr', function () {\r",
+							"    pm.expect(data.id).to.equal('JASQKNE4QeC_5r4GUinkr');\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test('Check that the name is: Postman', function () {\r",
+							"    pm.expect(data.customerName).to.equal('Postman');\r",
+							"});\r",
+							"\r",
+							"const response = pm.response.json();\r",
+							"    console.log(\"Afisam datele pentru comanda cu id-ul:\", response.id)\r",
+							"    console.log(\"Id-ul este:\", response.id)\r",
+							"    console.log(\"Book Id-ul este:\", response.bookId)\r",
+							"    console.log(\"CustomerName-ul este:\", response.customerName)\r",
+							"    console.log(\"Created by:\", response.createdBy)\r",
+							"    console.log(\"Cantinatea este:\", response.quantity)\r",
+							"    console.log(\"Timestamp-ul este:\", response.timestamp)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer c0af742a26f5d4d1b3032ab13ed37c68d918be09b891d5a71854896bf0ad852a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/orders/JASQKNE4QeC_5r4GUinkr",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"orders",
+						"JASQKNE4QeC_5r4GUinkr"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by limit 1-20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=2",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by limit <1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=0",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by negative limit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=-5",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "-5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by limit >20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=21",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by limit special characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=@fdgh",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "@fdgh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by decimal limit - separator is \".\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=2.6",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2.6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Books - Filter by decimal limit - separator is \",\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books?limit=2,4",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2,4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "Bearer c0af742a26f5d4d1b3032ab13ed37c68d918be09b891d5a71854896bf0ad852a",
+			"type": "string"
+		}
+	]
+}

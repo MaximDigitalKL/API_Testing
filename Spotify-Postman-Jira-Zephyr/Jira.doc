@@ -1,0 +1,3204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://testaremanualamaxim.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-15]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-15">Check that the request is processed when the album id is exists</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10021-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-3">
+                     <strike>TES-3</strike>                 </a>
+            </td>
+            <td>
+                GET Album
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Base URL: <a href="https://api.spotify.com" class="external-link" rel="nofollow noreferrer">https://api.spotify.com</a></p>
+
+<p>Endpoint:  /v1/albums/id</p>
+
+<p>Expected results: an album with the following data:  album_type, total_tracks, available_markets, external_urls,</p>
+
+<p>href, id, images(url, height, width), name, release_date, release_date_precision, restrictions(reason), type, uri,</p>
+
+<p>artists.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-14]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-14">Verify that the user can obtain the token when all the information is correct</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10020-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-8">
+                     <strike>TES-8</strike>                 </a>
+            </td>
+            <td>
+                Generate Token For API Authentication
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>In order to generate the token for the API authentication we need to send a new request in POSTMAN with the following data:</p>
+
+<p>body -  select x-www-form-urlencoded</p>
+
+<p>In the body section insert the following parameters  (under  x-www-form-urlencoded):</p>
+
+<p> redirect_uri (NOT ENCODED uri that  was defined in the dashboard)</p>
+
+<p>client_id (generated and available in the dashboard)</p>
+
+<p>client_secret (generated and available in the dashboard)</p>
+
+<p>code (generated from previous request)</p>
+
+<p>grant_type (authorization code)</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-13]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-13">Verify that the user can obtain the authorization code when the client id and redirect URI are correct</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10019-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-7">
+                     <strike>TES-7</strike>                 </a>
+            </td>
+            <td>
+                Generate Authorization Code from Spot...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>n order to obtain Request sending authorization from Spotify we need to send a Request User Authorization request.</p>
+
+<p>The parameters need for this request are the following:</p>
+
+<p>client_id: The Client ID generated after registering your application.<br/>
+response_type: code<br/>
+redirect_uri: The URI to redirect to after the user grants or denies permission. This URI needs to have been entered in the Redirect URI allowlist that you specified when you registered your application (See the app settings guide). The value of redirect_uri here must exactly match one of the values you entered when you registered your application, including upper or lowercase, terminating slashes, and such. (<a href="http://maximrapi.com/callback" class="external-link" rel="nofollow noreferrer">http://maximrapi.com/callback</a>)<br/>
+scope:	ugc-image-upload user-read-playback-state user-modify-playback-state user-read-currently-playing app-remote-control streaming playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-follow-modify user-follow-read user-read-playback-position user-top-read user-read-recently-played user-library-modify user-library-read user-read-email user-read-private</p>
+
+
+<p>The Above parameters must be placed in postman in the Params section in the “key : value” format.</p>
+
+<p>The request WILL NOT be sent from POSTMAN, but directly from the browser in order to see the “Authorize” button from Spotify</p>
+
+<p>The redirect URI must be encoded, you can use the following website: <a href="https://www.urlencoder.io/" class="external-link" rel="nofollow noreferrer">https://www.urlencoder.io/</a> </p>
+
+<p>The result will be a code will be composed of the redirect URI and a code that will serve as the authorization code</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-12]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-12">Verify that the user can edit the DEV API Dashboard</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10018-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-6">
+                     <strike>TES-6</strike>                 </a>
+            </td>
+            <td>
+                Create Spotify Account and Generate D...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Click on Edit Settings to view and update your app settings</p>
+
+<p>In Redirect URIs enter one or more addresses that you want to allowlist with Spotify. This URI enables the Spotify authentication service to automatically invoke your app every time the user logs in (e.g. <a href="http://localhost:8080" class="external-link" rel="nofollow noreferrer">http://localhost:8080</a>). It can be anything, it doesn’t have to be a valid link Eg: <a href="http://maximrapi.com/callback" class="external-link" rel="nofollow noreferrer">http://maximrapi.com/callback</a> and click Add button</p>
+
+<p>Click the SAVE button at the end of the window.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-11]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-11">[Create Dashboard] - Mandatory fields are not marked accordingly</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22affectedVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Eroare
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nerezolvat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10017-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-10">
+                     TES-10                 </a>
+            </td>
+            <td>
+                Verify that the user can create a new...
+            </td>
+            <td>
+                În curs
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-6">
+                     <strike>TES-6</strike>                 </a>
+            </td>
+            <td>
+                Create Spotify Account and Generate D...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-10017-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-2" href="https://testaremanualamaxim.atlassian.net/browse/TES-5">
+        Authenticate to Spotify API
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Preconditions:  A Spotify account must already be created</p>
+
+<p>Steps to reproduce:</p>
+
+<ul>
+	<li>Access link dashboard login link</li>
+	<li>Click on the login button</li>
+	<li>Accept the terms and conditions</li>
+	<li>Insert the credentials and click on the login button</li>
+	<li>Click on the Create an App button, and insert all the mandatory fields:
+	<ul>
+		<li>App Name</li>
+		<li>App Description</li>
+	</ul>
+	</li>
+	<li>Check the terms and conditions and click on create\</li>
+</ul>
+
+
+<p>Expected results:</p>
+
+<ul>
+	<li>The app name and app description are mandatory fields and are marked with a red star</li>
+</ul>
+
+
+<p>Actual results:</p>
+
+<ul>
+	<li>The app name and app description are mandatory fields but are not marked with a red star</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-10]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-10">Verify that the user can create a new DEV API Dashboard</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">În curs</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nerezolvat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-11">
+                     TES-11                 </a>
+            </td>
+            <td>
+                [Create Dashboard] - Mandatory fields...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-6">
+                     <strike>TES-6</strike>                 </a>
+            </td>
+            <td>
+                Create Spotify Account and Generate D...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul class="alternate" type="square">
+	<li>Go to your Dashboard and click on the Create an App button</li>
+</ul>
+
+
+<ul class="alternate" type="square">
+	<li>Enter an App Name and App Description of your choice (they will be displayed to the user on the grant screen), put a tick in the Developer Terms of Service checkbox and finally click on CREATE. Your application is now registered, and you’ll be redirected to the app overview page.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-9]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-9">Verify that the user can create a new Spotify Account</a>
+            <span class="subText">
+               Create: 27/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10015-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-6">
+                     <strike>TES-6</strike>                 </a>
+            </td>
+            <td>
+                Create Spotify Account and Generate D...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>The User must be able to create a new Spotify account with valid email and valid credentials.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-8]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-8">Generate Token For API Authentication</a>
+            <span class="subText">
+               Create: 25/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Relatare
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10014-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-14">
+                     <strike>TES-14</strike>                 </a>
+            </td>
+            <td>
+                Verify that the user can obtain the t...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-10014-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-2" href="https://testaremanualamaxim.atlassian.net/browse/TES-5">
+        Authenticate to Spotify API
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>In order to generate the token for the API authentication we need to send a new request in POSTMAN with the following data:</p>
+
+<p>body -  select x-www-form-urlencoded</p>
+
+<p>In the body section insert the following parameters  (under  x-www-form-urlencoded):</p>
+
+<ul>
+	<li>redirect_uri (NOT ENCODED uri that  was defined in the dashboard)</li>
+	<li>client_id (generated and available in the dashboard)</li>
+	<li>client_secret (generated and available in the dashboard)</li>
+	<li>code (generated from previous request)</li>
+	<li>grant_type (authorization code)</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-7]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-7">Generate Authorization Code from Spotify </a>
+            <span class="subText">
+               Create: 25/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Relatare
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10013-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-13">
+                     <strike>TES-13</strike>                 </a>
+            </td>
+            <td>
+                Verify that the user can obtain the a...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-10013-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-2" href="https://testaremanualamaxim.atlassian.net/browse/TES-5">
+        Authenticate to Spotify API
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>In order to obtain Request sending authorization from Spotify we need to send a Request User Authorization request.</p>
+
+<p>The parameters need for this request are the following:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>client_id: The Client ID generated after registering your application.
+response_type: code
+redirect_uri: The URI to redirect to after the user grants or denies permission. This URI needs to have been entered in the Redirect URI allowlist that you specified when you registered your application (See the app settings guide). The value of redirect_uri here must exactly match one of the values you entered when you registered your application, including upper or lowercase, terminating slashes, and such. (http://maximrapi.com/callback)
+scope:	ugc-image-upload user-read-playback-state user-modify-playback-state user-read-currently-playing app-remote-control streaming playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public user-follow-modify user-follow-read user-read-playback-position user-top-read user-read-recently-played user-library-modify user-library-read user-read-email user-read-private</pre>
+</div></div>
+
+
+
+<p>The Above parameters must be placed in postman in the Params section in the “key : value” format.</p>
+
+<p>The request WILL NOT be sent from POSTMAN, but directly from the browser in order to see the “Authorize” button from Spotify</p>
+
+<p>The redirect URI must be encoded, you can use the following website: <a href="https://www.urlencoder.io/" class="external-link" rel="nofollow noreferrer">https://www.urlencoder.io/</a> </p>
+
+<p>The result will be a code will be composed of the redirect URI and a code that will serve as the authorization code</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-6]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-6">Create Spotify Account and Generate DEV API Dashboard</a>
+            <span class="subText">
+               Create: 25/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Relatare
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10012-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-10">
+                     TES-10                 </a>
+            </td>
+            <td>
+                Verify that the user can create a new...
+            </td>
+            <td>
+                În curs
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-11">
+                     TES-11                 </a>
+            </td>
+            <td>
+                [Create Dashboard] - Mandatory fields...
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-9">
+                     <strike>TES-9</strike>                 </a>
+            </td>
+            <td>
+                Verify that the user can create a new...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-12">
+                     <strike>TES-12</strike>                 </a>
+            </td>
+            <td>
+                Verify that the user can edit the DEV...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-10012-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-2" href="https://testaremanualamaxim.atlassian.net/browse/TES-5">
+        Authenticate to Spotify API
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Full instructions for generating the dashboard <a href="https://developer.spotify.com/documentation/general/guides/authorization/app-settings/" class="external-link" rel="nofollow noreferrer">APPSetings</a></p>
+
+<ul>
+	<li>go to <a href="https://developer.spotify.com/dashboard/" class="external-link" rel="nofollow noreferrer">your Dashboard</a> and click on the <em>Create an App</em> button</li>
+	<li>Enter an <em>App Name</em> and <em>App Description</em> of your choice (they will be displayed to the user on the grant screen), put a tick in the <em>Developer Terms of Service</em> checkbox and finally click on <em>CREATE</em>. Your application is now registered, and you’ll be redirected to the app overview page.</li>
+	<li>Click on <em>Edit Settings</em> to view and update your app settings</li>
+	<li>In <em>Redirect URIs</em> enter one or more addresses that you want to allowlist with Spotify. This URI enables the Spotify authentication service to automatically invoke your app every time the user logs in (e.g. <a href="http://localhost:8080" class="external-link" rel="nofollow noreferrer">http://localhost:8080</a>). It can be anything, it doesn’t have to be a valid link Eg: <a href="http://maximrapi.com/callback" class="external-link" rel="nofollow noreferrer">http://maximrapi.com/callback</a> and click Add button</li>
+	<li>Click the SAVE button at the end of the window.</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-5]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-5">Generate the identification necessary for the API request permissions</a>
+            <span class="subText">
+               Create: 25/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nerezolvat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10011-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Name:</b></td>
+                <td id="customfield_10011-10011-value" class="value" bgcolor="#ffffff" width="80%">      Authenticate to Spotify API
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-4]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-4">GET Several Albums</a>
+            <span class="subText">
+               Create: 25/Nov/22                   &nbsp;Actualizat: 25/Nov/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Relatare
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nerezolvat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Cloners</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                clones
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-3">
+                     <strike>TES-3</strike>                 </a>
+            </td>
+            <td>
+                GET Album
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-10010-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://testaremanualamaxim.atlassian.net/browse/TES-1">
+        Album API Specifications
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Base URL: <tt><a href="https://api.spotify.com" class="external-link" rel="nofollow noreferrer">https://api.spotify.com</a></tt></p>
+
+<p>Endpoint:  /albums/id</p>
+
+<p>Possible filter: market - An <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" class="external-link" rel="nofollow noreferrer">ISO 3166-1 alpha-2 country code</a>. If a country code is specified, only content that is available in that market will be returned.<br/>
+If a valid user access token is specified in the request header, the country associated with the user account will take priority over this parameter.<br/>
+<b><em>Note</em></b><em>: If neither market or user country are provided, the content is considered unavailable for the client.</em><br/>
+Users can view the country that is associated with their account in the <a href="https://www.spotify.com/se/account/overview/" class="external-link" rel="nofollow noreferrer">account settings</a>.</p>
+
+<p>Example value: “ES"</p>
+
+<p>Expected results: an album with the following data:  album_type, total_tracks, available_markets, external_urls,</p>
+
+<p>href, id, images(url, height, width), name, release_date, release_date_precision, restrictions(reason), type, uri,</p>
+
+<p>artists.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-3]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-3">GET Album</a>
+            <span class="subText">
+               Create: 24/Nov/22                   &nbsp;Actualizat: 27/Nov/22
+
+                                                    &nbsp;Rezolvat: 27/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Relatare
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Terminat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Legături Problemă:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Cloners</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is cloned by
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-4">
+                     TES-4                 </a>
+            </td>
+            <td>
+                GET Several Albums
+            </td>
+            <td>
+                Backlog
+            </td>
+        </tr>
+                                                <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://testaremanualamaxim.atlassian.net/browse/TES-15">
+                     <strike>TES-15</strike>                 </a>
+            </td>
+            <td>
+                Check that the request is processed w...
+            </td>
+            <td>
+                Done
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10014-10009-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-7" href="https://testaremanualamaxim.atlassian.net/browse/TES-1">
+        Album API Specifications
+    </a>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descriere</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Base URL: <tt><a href="https://api.spotify.com" class="external-link" rel="nofollow noreferrer">https://api.spotify.com</a></tt></p>
+
+<p>Endpoint:  /albums/id</p>
+
+<p>Possible filter: market - An <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" class="external-link" rel="nofollow noreferrer">ISO 3166-1 alpha-2 country code</a>. If a country code is specified, only content that is available in that market will be returned.<br/>
+If a valid user access token is specified in the request header, the country associated with the user account will take priority over this parameter.<br/>
+<b><em>Note</em></b><em>: If neither market or user country are provided, the content is considered unavailable for the client.</em><br/>
+Users can view the country that is associated with their account in the <a href="https://www.spotify.com/se/account/overview/" class="external-link" rel="nofollow noreferrer">account settings</a>.</p>
+
+<p>Example value: “ES"</p>
+
+<p>Expected results: an album with the following data:  album_type, total_tracks, available_markets, external_urls,</p>
+
+<p>href, id, images(url, height, width), name, release_date, release_date_precision, restrictions(reason), type, uri,</p>
+
+<p>artists.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-2]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-2">Define all the business scenarios for the Artist Endpoints</a>
+            <span class="subText">
+               Create: 24/Nov/22                   &nbsp;Actualizat: 24/Nov/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nerezolvat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Name:</b></td>
+                <td id="customfield_10011-10008-value" class="value" bgcolor="#ffffff" width="80%">      Artists API  Specifications
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [TES-1]&nbsp;<a href="https://testaremanualamaxim.atlassian.net/browse/TES-1">Define all the business scenarios for the Album Endpoint</a>
+            <span class="subText">
+               Create: 24/Nov/22                   &nbsp;Actualizat: 25/Nov/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Stare:</b></td>
+        <td width="80%">Backlog</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Proiect:</b></td>
+        <td width="80%"><a href="https://testaremanualamaxim.atlassian.net/secure/BrowseProject.jspa?id=10000">API-Spotify</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componente:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni afectate:</b></td>
+            <td>
+                            Niciunul
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versiuni corectate:</b></td>
+            <td>
+                                        <a title="Spotify API Launching"
+                href="https://testaremanualamaxim.atlassian.net/issues/?jql=project%3D10000%20AND%20%22fixVersion%22%3D10000%20ORDER%20BY%20priority%20ASC"
+            >Spotify API Launching</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tip:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioritate:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Raportor:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="637e1bd89e48f2b9a61211c9"
+                id="word_reporter_637e1bd89e48f2b9a61211c9"
+                href="https://testaremanualamaxim.atlassian.net/secure/ViewProfile.jspa?accountId=637e1bd89e48f2b9a61211c9">
+                    Razvan Maxim
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsabil:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Neatribuit
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rezoluție:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nerezolvat
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Voturi:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etichete:</b>
+        </td>
+        <td id="labels-10007-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Niciunul
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimare rămase:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Timp consumat:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimare original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nespecificat
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Name:</b></td>
+                <td id="customfield_10011-10007-value" class="value" bgcolor="#ffffff" width="80%">      Album API Specifications
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generată la Sun Nov 27 19:00:43 UTC 2022 de Razvan Maxim utilizând JIRA 1001.0.0-SNAPSHOT#100210-sha1:eab5823fbe61ae61303baa14f059e2cc747a5b5a.
+
+</body>
+</html>
